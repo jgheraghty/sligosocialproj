@@ -1,0 +1,642 @@
+﻿h1 
+{
+	color:white;
+	/*background-color:yellow;*/
+    /*background-image:url("../Restaurant.jpg");*/
+    /*font-family: 'Myanmar Text';*/
+    /*font-family: 'Buxton Sketch';*/
+    font-family:'Times New Roman';
+}
+
+/*p 
+{
+  line-height: 1.5;
+  margin: 30px 0;
+  display:inline-block;
+}*/
+
+.nav navbar-nav
+{
+	display: inline-block;
+	margin-right:200px;
+	color: red;
+	width:500px;
+	
+}
+
+#main
+{
+	min-height:400px;
+	margin:0px;
+	padding:0px;
+	display:-webkit-flex; 
+	display: flex;
+	-webkit-flex-flow:row;
+	flex-flow:row;
+		
+}
+
+body {
+	object-fit:cover;
+	/*background-image:url(images/Restaurant.jpg);
+	background-repeat:no-repeat;*/
+	background-color:#C4C4C4;
+	image-opacity:0.5;
+	width:100%;
+	font-family: 'Buxton Sketch';
+  	font-size: 20px;
+  	color: #404040;	
+}
+
+header 
+{
+    background-color: pink;
+    /*background-color:#c4c4c4;
+	margin: 4px;
+	padding:5px;
+	border:1px solid  #ffff4d;
+	border-radius:7pt;*/	
+}
+
+.chicken {
+    background-image: url('../images/lights.jpg');
+}
+
+.jumbotron img 
+{
+    margin-top:100px;
+	object-fit: cover;
+	width:100%;
+	/*height:550px;
+	border:1px solid lightyellow;
+	border-radius:7pt;*/
+	object-position:left;
+	/*width:1600px;
+	height:150px;*/ 
+}
+
+#main > article
+{
+	margin: 4px;
+	padding:5px;	
+	background:#dddd88;
+	-webkit-flex:3 1 60%;
+	flex: 3 1 60%;
+	-webkit-order:2;
+	order:2;
+}
+
+#main > aside
+{
+	margin: 4px;
+	padding:5px;
+	border:1px solid #8888bb;
+	border-radius:7pt;
+	background:#ccccff;
+	-webkit-flex:1 6 20%;
+	flex: 1 6 20%;
+	-webkit-order:3;
+	order:3;
+}
+
+#main > nav
+{
+	margin: 4px;
+	padding:5px;
+	border:1px solid #8888bb;
+	border-radius:7pt;
+	background:#ccccff;
+	-webkit-flex:1 6 20%;
+	flex: 1 6 20%;
+	-webkit-order:1;
+	order:1;
+}
+
+footer img
+{
+    background-repeat:no-repeat;
+    object-fit:cover;
+    color:white;
+	/*background-image:url("../images/Restaurant.jpg");*/
+    font-family: 'Buxton Sketch';
+    margin: 4px;
+	padding:5px;
+	border:1px solid #ffff4d;
+	border-radius:7pt;
+}
+
+article img 
+{
+	object-fit:cover;
+	width:100%;
+	border:1px solid #669900;
+	border-radius:7pt;
+	/*object-fit:fill;*/
+	/*height:768px;*/
+}
+
+@media all and (max-width:640px)
+{
+#main, #page 
+{
+	-webkit-flex-flow: column;
+	flex-flow: column;
+	flex-direction:column;
+	
+}}
+
+@media screen and (max-width: 800px)
+{
+article img 
+{
+	object-fit:cover;
+	width:100%;
+	border:1px solid #669900;
+	border-radius:7pt;
+	content:url("../images/Restaurant.jpg");
+}
+
+nav p 
+{
+	text-align:center;
+}
+
+header img
+{
+	object-fit:cover;
+	width:100%;
+	/*border:1px solid lightyellow;*/
+	border-radius:7pt;
+
+}
+
+.form-group
+{
+	color:#F10F13;
+}}
+
+
+p 
+{
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+p a 
+{
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+  font-family: 'Buxton Sketch';
+  font-weight: 800;
+}
+
+a 
+{
+  color: #404040;
+}
+
+a:hover, a:focus 
+{
+  color: #0085a1;
+}
+
+a img:hover, a img:focus 
+{
+  cursor: zoom-in;
+}
+
+blockquote 
+{
+  color: #808080;
+  font-style: italic;
+}
+
+hr.small 
+{
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
+
+.navbar-custom 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-family: 'Buxton Sketch';
+}
+
+.navbar-custom .navbar-brand 
+{
+  font-weight: 800;
+}
+
+.navbar-custom .nav li a 
+{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+  .navbar-custom 
+  {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+  }
+
+  .navbar-custom .navbar-brand 
+  {
+    color: white;
+    padding: 20px;
+  }
+
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus 
+  {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .navbar-custom .nav li a 
+  {
+    color: white;
+    padding: 20px;
+  }
+
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus 
+  {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+#row control-group 
+{
+    background-color: #00CCCC;
+
+}
+
+@media only screen and (min-width: 1170px) 
+{
+  .navbar-custom 
+  {
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .navbar-custom.is-fixed 
+  {
+    position: fixed;
+    top: -61px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #f2f2f2;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+  }
+
+  .navbar-custom.is-fixed .navbar-brand 
+  {
+    color: #404040;
+  }
+
+  .navbar-custom.is-fixed .navbar-brand:hover,
+  .navbar-custom.is-fixed .navbar-brand:focus 
+  {
+    color: #0085a1;
+  }
+
+  .navbar-custom.is-fixed .nav li a 
+  {
+    color: #404040;
+  }
+
+  .navbar-custom.is-fixed .nav li a:hover,
+  .navbar-custom.is-fixed .nav li a:focus 
+  {
+    color: #0085a1;
+  }
+
+  .navbar-custom.is-visible 
+  {
+    /* if the user changes the scrolling direction, we show the header */
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.intro-header 
+{
+  background-image:url('images/lights.jpg');
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 0px;
+}
+
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading 
+{
+  padding: 100px 0 50px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) 
+{
+  .intro-header .site-heading,
+  .intro-header .post-heading,
+  .intro-header .page-heading 
+  {
+    padding: 150px 0;
+  }
+}
+
+.intro-header .site-heading,
+.intro-header .page-heading 
+{
+  text-align: left;
+}
+
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 
+{
+  margin-top: 0;
+  font-size: 50px;
+}
+
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading 
+{
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Buxton Sketch';
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+
+@media only screen and (min-width: 768px) 
+{
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 
+  {
+    font-size: 80px;
+  }
+}
+
+.intro-header .post-heading h1 
+{
+  font-size: 35px;
+}
+
+.intro-header .post-heading .subheading,
+.intro-header .post-heading .meta 
+{
+  line-height: 1.1;
+  display: block;
+}
+
+.intro-header .post-heading .subheading 
+{
+  font-family: 'Buxton Sketch';
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+
+.intro-header .post-heading .meta 
+{
+  font-family: 'Buxton Sketch';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.intro-header .post-heading .meta a 
+{
+  color: white;
+}
+
+@media only screen and (min-width: 768px) 
+{
+  .intro-header .post-heading h1 
+  {
+    font-size: 55px;
+  }
+  .intro-header .post-heading .subheading 
+  {
+    font-size: 30px;
+  }
+}
+
+.post-preview > a 
+{
+  color: #404040;
+}
+
+@media only screen and (min-width: 768px) 
+{
+  .post-preview > a > .post-title 
+  {
+    font-size: 36px;
+  }
+}
+
+.section-heading 
+{
+  font-size: 36px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.caption 
+{
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  font-style: italic;
+  margin: 0;
+  display: block;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+  background-image:url("../Restaurant.jpg"); 
+  object-fit:cover;
+  color:white;
+  
+}
+
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea 
+{
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+
+.floating-label-form-group label 
+{
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+
+.floating-label-form-group:not(:first-child) 
+{
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+}
+
+.floating-label-form-group-with-value label 
+{
+  top: 0;
+  opacity: 1;
+}
+
+.floating-label-form-group-with-focus label 
+{
+  color: #0085a1;
+}
+
+form .row:first-child .floating-label-form-group 
+{
+  border-top: 1px solid #eeeeee;
+}
+
+.btn 
+{
+  font-family: 'Buxton Sketch';
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 15px 25px;
+}
+
+/*========================================= 
+    Styling for nav bar 
+==========================================*/
+
+body 
+{
+    margin: 0;
+
+}
+
+ul.topnav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li 
+{
+    float: left;
+
+}
+
+ul.topnav li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) 
+{
+    background-color: #111;
+
+}
+
+ul.topnav li a.active 
+{
+    background-color: #4CAF50;
+
+}
+
+ul.topnav li.right 
+{
+    float: right;
+
+}
+
+@media screen and (max-width: 600px)
+{
+    ul.topnav li.right,
+    ul.topnav li 
+    {
+        float: none;
+
+    }
+}
