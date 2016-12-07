@@ -22,7 +22,7 @@
         <script src="JavaScript.js"></script>
     </head>
  
-    <body>
+    <body onload="ShowVid()">
         <%--<div class="wrapper">--%>
         <%--<div class="logo-menu-container">
                 <div id="logo" class="logo">Professional Profile</div>
@@ -41,8 +41,8 @@
             <div class="clear"></div>--%>
 
         <div class="jumbotron">
-            <h1>This is a jumbotron</h1>
-            <p>This is a small paragraph</p>
+            <h1>Fancy getting out on the town?</h1>
+            <p>Day or night, you've come to the right place to find out all of the goings on around Sligo town</p>
 
         </div>
         <article>
@@ -127,8 +127,9 @@
                                 <button type="submit" class="btn btn-default">Send</button>
                             </div>
                         </div>
+                        
                     </form>
-                </div>
+             </div>
             </div>
         </div>
     </body>

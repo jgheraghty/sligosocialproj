@@ -183,11 +183,24 @@
     <Content Include="Account\Web.config" />
     <Content Include="images\Desert.jpg" />
     <Content Include="images\lights.jpg" />
-    <Content Include="JavaScript.js" />
+    <Content Include="images\pho1.png" />
+    <Content Include="images\pho2.png" />
+    <Content Include="images\pho3.png" />
+    <Content Include="images\pho4.png" />
+    <Content Include="images\pho5.png" />
+    <Content Include="images\pho6.png" />
+    <Content Include="images\pho7.png" />
+    <Content Include="images\placeholder-team-320x320.jpg" />
+    <Content Include="images\sligo.jpg" />
+    <Content Include="javascript\JavaScriptMap.js" />
+    <Content Include="javascript\JavaScript.js" />
+    <Content Include="javascript\jquery.googlemap.js" />
+    <Content Include="Location.aspx" />
     <Content Include="ProfileProfUser.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
@@ -221,6 +234,11 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="slickPlugin\slick-theme.css" />
+    <Content Include="slickPlugin\slick.css" />
+    <Content Include="slickPlugin\slick.js" />
+    <Content Include="slickPlugin\slick.min.js" />
+    <Content Include="styles\StyleSheetMap.css" />
     <Content Include="styles\StyleSheetSite.css" />
     <Content Include="styles\StyleSheet.css" />
     <Content Include="video\adelehello.mp4" />
@@ -238,6 +256,10 @@
     <Content Include="Site.Mobile.Master" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="slickPlugin\slick-theme.less" />
+    <Content Include="slickPlugin\slick-theme.scss" />
+    <Content Include="slickPlugin\slick.less" />
+    <Content Include="slickPlugin\slick.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -385,6 +407,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Location.aspx.cs">
+      <DependentUpon>Location.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Location.aspx.designer.cs">
+      <DependentUpon>Location.aspx</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201611141122378_InitialCreate.cs" />
     <Compile Include="Migrations\201611141122378_InitialCreate.Designer.cs">
